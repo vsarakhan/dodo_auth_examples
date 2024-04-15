@@ -1,6 +1,7 @@
 from flask import Flask, request
 import requests as http
 import os
+import webbrowser
 
 __client_id__ = "<your_client_id_here>"
 __client_secret__ = os.getenv('CLIENT_SECRET')
@@ -30,18 +31,19 @@ def get_token():
     access_token = auth_result.json()["access_token"]
     save_token(access_token)
 
-    return '', 204
+    return 'Success', 200
 
 def save_token(token):
     print(token)
     #do what you need
 
-def show_sign_in_url(clientId, scopes, redirect_url, code_challenge):
+def show_sign_in_page(clientId, scopes, redirect_url, code_challenge):
     print("Open this link in browser:")
     url = f'https://auth.dodois.io/connect/authorize?client_id={clientId}&scope={" ".join(scopes)}&response_type=code&redirect_uri={redirect_url}&code_challenge={code_challenge}&code_challenge_method=S256'
     print(url)
+    webbrowser.open(url)
 
 if __name__ == "__main__":
-    show_sign_in_url(__client_id__, __scopes__, __redirect_url__, __code_challenge__)
+    show_sign_in_page(__client_id__, __scopes__, __redirect_url__, __code_challenge__)
     app.run(host="localhost", port=5001, ssl_context='adhoc')
 
