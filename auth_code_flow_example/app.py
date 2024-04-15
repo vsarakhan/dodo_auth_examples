@@ -2,7 +2,7 @@ from flask import Flask, request
 import requests as http
 import os
 
-__client_id__ = "client-code-lWjxPEB14Ly0qVphp60rLc7q0ZG4g0OQ"
+__client_id__ = "<your_client_id_here>"
 __client_secret__ = os.getenv('CLIENT_SECRET')
 __code_challenge__ = "51FaJvQFsiNdiFWIq2EMWUKeAqD47dqU_cHzJpfHl-Q"
 __code_verifier__ = "c775e7b757ede630cd0aa1113bd102661ab38829ca52a6422ab782862f268646"
