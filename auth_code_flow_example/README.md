@@ -14,7 +14,7 @@ You need to set environment variables `CLIENT_ID` with your client_id and `CLIEN
 
 ## Launch via IDE
 
-You can use IDE. For example VS Code or PyCharn. In this case, the page you need to start will open in your browser
+You can use IDE. For example VS Code or PyCharm. In this case, the page you need to start will open in your browser
 
 ## Manual launch
 
