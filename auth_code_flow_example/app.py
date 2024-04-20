@@ -4,7 +4,7 @@ import os
 import webbrowser
 
 #client id and client secret from https://marketplace.dodois.io/dev/apps
-__client_id__ = "<your_client_id_here>" #pass your client id here
+__client_id__ = os.getenv('CLIENT_ID') #pass your client id here
 __client_secret__ = os.getenv('CLIENT_SECRET') #get your client secret from environment variable 
                                                 #we do not recommend storing the secret directly in code
 
