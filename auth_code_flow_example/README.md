@@ -12,4 +12,16 @@ You can learn more about Authorization Code Flow by following the [link](https:/
 
 You need to set environment variables `CLIENT_ID` with your client_id and `CLIENT_SECRET` with your client secret
 
-## How to start
+## Launch via IDE
+
+You can use IDE. For example VS Code or PyCharn. In this case, the page you need to start will open in your browser
+
+## Manual launch
+
+To run it manually you can use the command:
+
+    ```sh
+    flask  run --host=localhost --port=5001 --cert=adhoc
+    ```
+
+
