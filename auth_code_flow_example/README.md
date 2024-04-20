@@ -28,4 +28,8 @@ After launching the application you need to follow the login link in your browse
 
 Instead of `<your_client_id_here>` you need to substitute your client id
 
+## I don't have a client id and client secret
+
+You can get it [here](https://marketplace.dodois.io/dev/apps)
+
 
