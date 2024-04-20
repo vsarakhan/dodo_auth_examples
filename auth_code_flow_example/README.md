@@ -20,8 +20,6 @@ You can use IDE. For example VS Code or PyCharn. In this case, the page you need
 
 To run it manually you can use the command:
 
-    `
     flask  run --host=localhost --port=5001 --cert=adhoc
-    `
 
 
