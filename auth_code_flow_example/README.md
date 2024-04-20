@@ -22,7 +22,7 @@ To run it manually you can use the command:
 
     flask  run --host=localhost --port=5001 --cert=adhoc
 
-After that, after launching the application, you need to click on the login link in your browser. For example     
+After launching the application you need to follow the login link in your browser. For example     
 
     https://auth.dodois.io/connect/authorize?client_id=<your_client_id_here>&scope=shared openid&response_type=code&redirect_uri=https://localhost:5001&code_challenge=51FaJvQFsiNdiFWIq2EMWUKeAqD47dqU_cHzJpfHl-Q&code_challenge_method=S256
 
