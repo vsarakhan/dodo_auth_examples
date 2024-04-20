@@ -26,6 +26,6 @@ After that, after launching the application, you need to click on the login link
 
     https://auth.dodois.io/connect/authorize?client_id=<your_client_id_here>&scope=shared openid&response_type=code&redirect_uri=https://localhost:5001&code_challenge=51FaJvQFsiNdiFWIq2EMWUKeAqD47dqU_cHzJpfHl-Q&code_challenge_method=S256
 
-Instead of <your_client_id_here> you need to substitute your client id
+Instead of `<your_client_id_here>` you need to substitute your client id
 
 
